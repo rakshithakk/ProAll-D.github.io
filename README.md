@@ -1,6 +1,7 @@
 # ProAll-D.github.io
 Allergy, often described as an autoimmune disorder, is a clinical condition characterized by the sensitivity of the immune system to normally innocuous elements. Breathing issues, food sensitivities, eczema, bronchopneumonia, and hypersensitivity reaction are examples of these conditions. Symptoms also include red eyes, itching, coughing, nasal congestion, breathing difficulty, or swelling. Typical allergens include pollen and certain foods. Food, insect bites, and drugs are all major causes of severe reactions. Their growth is influenced by both hereditary and environmental factors. Bioinformatics has been extensively utilized to predict allergens, involving a range of tools and methodologies. Even though discriminative algorithms such as support vector machines (SVM) have recently improved alignment methods, they are time-consuming if a new pattern must be compared to a huge amount of existing data. Another limitation of the alignment methods is that they won't develop a model of the true positive but rather estimate the average distances between protein sequences. We present a set of novel allergen prediction models based on protein characteristic values, ACC (auto and cross-covariance) transformation, and a variety of supervised learning, ensemble learning, and deep learning classification methods such as Gaussian Nave Bayes, Radius Neighbour’s Classifier, Extra Tree Classifier, Bagging Classifier, ADA Boost, Linear Discriminant Analysis, Quadratic Discriminant Analysis, and LSTM methods. LSTM was the best-performing model, with an accuracy of 91.51 percent.
 
-## TO execute the code , download and copy paste the path of the file in command prompt
-# Then in allergen_GUI >python manage.py runserver
-#Then a port number will be displayed which should be executed in the browser
+###
+ TO execute the code , download and copy paste the path of the file in command prompt
+ Then in allergen_GUI >python manage.py runserver
+ Then a port number will be displayed which should be executed in the browser
